@@ -1,14 +1,22 @@
 .tags {
   position: absolute;
+  color: white;
   left: 5px;
   bottom: 5px;
+  font-size: 12px;
 
   span {
     background-color: #09f;
-    color: white;
     border-radius: 4px;
-    font-size: 12px;
     padding: 2px 4px;
     margin: 0 4px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(75, 110, 65);
+    padding: 2px 5px;
+    border-radius: 50%;
   }
 }
